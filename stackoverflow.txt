@@ -6,7 +6,6 @@ public class StackOverflowExample {
             System.out.println("Caught StackOverflowError: " + e.getMessage());
         }
     }
-
     private static void recursiveMethod(int counter) {
         System.out.println("Counter: " + counter);
         recursiveMethod(counter + 1);
